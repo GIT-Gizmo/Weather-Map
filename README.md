@@ -1,2 +1,2 @@
 # Weather Map
-A fshion clothe store for increasing or upgrading your wardrobe
+A web app that gives details about a locations weather condition.
