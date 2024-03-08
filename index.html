@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Map</title>
+</head>
+<body>
+    <main>
+        <form action="/" method="post">
+            <input type="text" name="q" id="state" placeholder="Type location in your state or country">
+
+            <select name="unit" id="unit">
+                <option value="standard">
+                    Standard(kelvin)
+                </option>
+
+                <option value="metric">
+                    Metric
+                </option>
+
+                <option value="imperial">
+                    Imperial
+                </option>
+            </select>
+
+            <button type="submit">Get weather</button>
+        </form>
+    </main>
+</body>
+</html>
